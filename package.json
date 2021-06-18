@@ -1,0 +1,44 @@
+{
+  "_from": "jstransformer-php-minify",
+  "_id": "jstransformer-php-minify@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-s5qQVioKn/rDScJB649n4WHJ7ifOkJeoNSe9ZYR/I4TGrdSQMQwWzNDX3J44lqFW3kIW+Wmxg/yCXkCuz1Hctg==",
+  "_location": "/jstransformer-php-minify",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jstransformer-php-minify",
+    "name": "jstransformer-php-minify",
+    "escapedName": "jstransformer-php-minify",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/jstransformer-php-minify/-/jstransformer-php-minify-1.0.3.tgz",
+  "_shasum": "a4d704bf69747de51c9bfc8c601658aa79fef2cd",
+  "_spec": "jstransformer-php-minify",
+  "_where": "C:\\Users\\s-oshima\\localserver\\akihabara-japan\\workspace",
+  "author": {
+    "name": "agarciadelrio@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "jstransformer php for pug",
+  "keywords": [
+    "jstransformer",
+    "pug",
+    "php"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "jstransformer-php-minify",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
