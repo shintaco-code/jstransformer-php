@@ -5,6 +5,7 @@ exports.render = function (text='', options={}) {
   let rtext = "";
   if(options.minify){
     rtext = `${text.replace(/\/\/ .+/g, '')}`;
+    rtext = `${rtext.replace(/\/\/\- .+/g, '')}`;
     rtext = `${rtext.replace(/(\r\n|\n|\r)/g, '')}`;
     rtext = `${rtext.replace(/ +/g, ' ')}`;
     rtext = `${rtext.replace(/(\, | \,)/g, ',')}`;
